@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sauce_demo_hilo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d21d1fc-df46-4072-8a87-96fadb4aafb9</testCaseGuid>
+</TestCaseEntity>

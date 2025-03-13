@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>make_appointment_Tokyo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b00dd26-4dee-4250-8fb4-a0b6fa0b16e4</testCaseGuid>
+</TestCaseEntity>
