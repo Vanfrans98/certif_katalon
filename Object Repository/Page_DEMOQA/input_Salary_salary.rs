@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_userEmail</name>
+   <name>input_Salary_salary</name>
    <tag></tag>
-   <elementGuidId>3137ee41-e2ce-4f3e-bb24-1da806737a05</elementGuidId>
+   <elementGuidId>3d0d7312-6726-4946-9353-1232b90995a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='userEmail']</value>
+         <key>CSS</key>
+         <value>#salary</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#userEmail</value>
+         <key>XPATH</key>
+         <value>//input[@id='salary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;name@example.com&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Salary&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fd6da540-792b-4528-93f1-1ae8f6e955b3</webElementGuid>
+      <webElementGuid>35a23839-be76-4d6e-a44d-121f86f03bde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,39 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>5e02b0d0-3e1d-4578-acaa-3eec8ad20dbe</webElementGuid>
+      <webElementGuid>275a2b4f-fdd8-40e4-999c-2b065a0070fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pattern</name>
+      <type>Main</type>
+      <value>\d*</value>
+      <webElementGuid>476c4a7b-dc47-4029-b9cc-fc1aeb44f945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>minlength</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4a72b04a-5be1-4fa9-a305-723ead07c28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>10</value>
+      <webElementGuid>1f161d43-7006-4b37-b121-6e6c54fc161c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>name@example.com</value>
-      <webElementGuid>f628e887-94e8-4a78-b405-ec719f2d8242</webElementGuid>
+      <value>Salary</value>
+      <webElementGuid>41346adf-e9f3-4424-8771-4b25bb38a740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,86 +77,62 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e76df04b-b7cd-4f74-b94c-e020dda089e7</webElementGuid>
+      <webElementGuid>9e81fd66-35a0-4418-879e-70c1c9db476f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userEmail</value>
-      <webElementGuid>f5a32ea0-7f85-4727-9763-9e392a5feafa</webElementGuid>
+      <value>salary</value>
+      <webElementGuid>cd77b623-424b-4297-9968-9dd5a153a0f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mr-sm-2 form-control</value>
-      <webElementGuid>eac7e953-706a-4be7-8b20-a91c615e1cd0</webElementGuid>
+      <value> mr-sm-2 form-control</value>
+      <webElementGuid>c0cd9bb5-6964-4df9-bdde-c0177a275bae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userEmail&quot;)</value>
-      <webElementGuid>7de86489-b4df-4d71-a17e-5bfcc1f64932</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$</value>
-      <webElementGuid>053adbab-c743-400a-ae08-8580fad82cf9</webElementGuid>
+      <value>id(&quot;salary&quot;)</value>
+      <webElementGuid>87731da1-7dda-4bed-b31f-e49fda372524</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='userEmail']</value>
-      <webElementGuid>0aad0e96-36d6-43a9-87f8-a51fa8e07abb</webElementGuid>
+      <value>//input[@id='salary']</value>
+      <webElementGuid>7dac318d-0b72-422c-973a-e4480f0b9a76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='userEmail-wrapper']/div[2]/input</value>
-      <webElementGuid>4e381de0-c14b-40b7-a227-b7701ff70600</webElementGuid>
+      <value>//div[@id='salary-wrapper']/div[2]/input</value>
+      <webElementGuid>450f6c55-418a-412e-acd8-29c3bbc43aa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/input</value>
-      <webElementGuid>0208e7fc-dc43-491f-9bc2-0f988f26fe7e</webElementGuid>
+      <value>//div[5]/div[2]/input</value>
+      <webElementGuid>d5fd0e02-8703-45c5-b6ce-c9e694dd9ed2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'name@example.com' and @type = 'text' and @id = 'userEmail']</value>
-      <webElementGuid>06da18cb-cbe4-40de-9f3d-e569582a1070</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div[2]/input</value>
-      <webElementGuid>89b10d00-ce0c-4a69-b564-1b1678b2bcb3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@placeholder = 'name@example.com' and @type = 'email' and @id = 'userEmail']</value>
-      <webElementGuid>b62a1bdd-e50e-4b6b-a376-e75fa8bd6876</webElementGuid>
+      <value>//input[@placeholder = 'Salary' and @type = 'text' and @id = 'salary']</value>
+      <webElementGuid>514b77eb-6455-43f9-acaf-4727618ff12e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
