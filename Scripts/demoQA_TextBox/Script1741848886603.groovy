@@ -37,6 +37,8 @@ WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/textarea_Current Add
 
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'), 'Cibubur')
 
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_Submit'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Submit'))
 
 WebUI.getText(findTestObject('Page_DEMOQA/p_NameVande Fransiskus Butar Butar'), FailureHandling.STOP_ON_FAILURE)
