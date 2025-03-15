@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7347ec17-2d0a-4fb4-b454-e3c50747774e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/demoQA_WebTables</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3d79e101-8b9f-4354-8ebb-e8399f51bd9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
