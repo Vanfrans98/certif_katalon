@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>make_appointment_Seoul</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ba022a09-5146-4aa6-8d61-a0847a8352a5</testCaseGuid>
-</TestCaseEntity>
